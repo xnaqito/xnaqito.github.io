@@ -15,7 +15,7 @@ main {
 footer {
   background: darkgray;
   width: 100%;
-  height: 20;
+  height: 12;
   position: fixed;
   bottom: 0;
 }
