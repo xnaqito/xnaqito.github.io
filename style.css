@@ -6,14 +6,12 @@
 
 .top {
   background: gray;
-}
-
-main {
-
+  width: 100%;
+  text-align: center;
 }
 
 .about {
-  
+  background: white;
 }
 
 footer {
