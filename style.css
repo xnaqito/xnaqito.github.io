@@ -4,12 +4,16 @@
   justify-content: center;
 }
 
-.sidebar {
+.top {
   background: gray;
 }
 
 main {
 
+}
+
+.about {
+  
 }
 
 footer {
