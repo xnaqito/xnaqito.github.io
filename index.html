@@ -7,9 +7,14 @@
     <title>naqito</title>
     <base href="">
     <style>
+      ::-webkit-scrollbar {
+        display: none;
+      }
       .container {
+        font-family: Helvetica, sans-serif;
         position: relative;
         min-height: 100vh;
+        min-width: 100vw;
         display: flex;
         flex-flow: row wrap;
         align-items: flex-start;
@@ -18,15 +23,22 @@
         justify-content: flex-start;
         text-align: center;
         width: 100vw;
-        height: 2rem;
+        height: 2;
+        position: absolute;
+        top: 0;
+      }
+      main{
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        margin: 1%;
       }
       .bioimg {
         float: left;
       }
       footer{
-        justify-content: flex-end;
         text-align: right;
-        width: 100vw;
+        width: 99vw;
+        height: 1.5rem;
         position: absolute;
         bottom: 0;
       }
